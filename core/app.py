@@ -25,7 +25,7 @@ class App(AnnotationMixin, PreviewMixin, FileListMixin, OutputOptsMixin,
 
     def __init__(self):
         super().__init__()
-        self.title("PDF转Word —— 智能文档转换工具 | 作者VX：XNHSDJ")
+        self.title("我的 PDF 转 Word 工具（学习版）")
         self.geometry("1100x750")
         self.minsize(900, 620)
         self.configure(bg=LIGHT_BG)
