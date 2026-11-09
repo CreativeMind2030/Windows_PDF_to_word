@@ -183,7 +183,7 @@ class App(AnnotationMixin, PreviewMixin, FileListMixin, OutputOptsMixin,
     def _build_left(self, parent):
         toolbar = tk.Frame(parent, bg=WHITE, pady=10, padx=14)
         toolbar.pack(fill="x")
-        self._btn_add   = styled_btn(toolbar, "添加",     self._add_files)
+        self._btn_add   = styled_btn(toolbar, "添加PDF",     self._add_files)
         self._btn_del   = styled_btn(toolbar, "删除",     self._delete_selected)
         self._btn_start = styled_btn(toolbar, "开始转换",
                                      self._start_convert, width=8,
